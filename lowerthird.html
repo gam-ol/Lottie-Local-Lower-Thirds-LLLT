@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Lottie Render 4K - Font Fix</title>
+    <style>
+        body, html { 
+            margin: 0; 
+            padding: 0; 
+            background: transparent; 
+            width: 100%; 
+            height: 100%; 
+            overflow: hidden;
+            /* Устанавливаем Arial как базу с НОРМАЛЬНЫМ начертанием */
+            font-family: "Arial", sans-serif; 
+            font-weight: 400; 
+            -webkit-font-smoothing: antialiased;
+        }
+
+        #bm { 
+            width: 100%; 
+            height: 100%; 
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        /* Убираем любые принудительные стили, которые могут красить текст в Bold */
+        text { font-weight: inherit !important; }
+    </style>
+</head>
+<body>
+    <div id="bm"></div>
+    <script src="lottie.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

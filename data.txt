@@ -1,0 +1,11 @@
+name: NAME SURENAME
+
+title: @gam_ol (gamulinsky@gmail.com)
+
+color_txt_name: EEEEEE
+
+color_txt_title: 141414
+
+color_bg_name: 892C2C
+
+color_bg_title: EEEEEE
