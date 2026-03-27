@@ -19,22 +19,22 @@ Ready-to-use standalone version for production. No installation required.
 *   `pw-browser/` — Isolated Chromium environment.
 *   `ffmpeg.exe` — Video encoding engine.
 *   `generator.exe` — CLI rendering core.
-*   `LowerThirds_Control.exe` — Main GUI application[cite: 1].
-*   `data.txt` — Current text and color data[cite: 1, 7].
-*   `index.js` — Lottie dynamic bridge[cite: 1, 2].
-*   `lottie.js` — Lottie-web library[cite: 1, 3].
-*   `lowerthird.html` — Web wrapper[cite: 1, 4].
-*   `lowerthird.json` — Swappable Lottie template[cite: 1, 5].
+*   `LowerThirds_Control.exe` — Main GUI application.
+*   `data.txt` — Current text and color data.
+*   `index.js` — Lottie dynamic bridge.
+*   `lottie.js` — Lottie-web library.
+*   `lowerthird.html` — Web wrapper.
+*   `lowerthird.json` — Swappable Lottie template.
 
 ---
 
 ## Customization 
 
 LLLT is designed as a **universal engine**. To use your own graphics:
-1. Replace `lowerthird.json` with your file[cite: 1].
+1. Replace `lowerthird.json` with your file.
 2. Ensure your Lottie layers are named:
-   * `.f0`, `.f1` — for Text[cite: 1, 2].
-   * `.py0` to `.py3` — for Colors[cite: 1, 5].
+   * `.f0`, `.f1` — for Text.
+   * `.py0` to `.py3` — for Colors.
 3. Run `LowerThirds_Control.exe` and generate your asset.
 
 ---
